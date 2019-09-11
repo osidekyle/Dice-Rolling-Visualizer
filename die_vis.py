@@ -29,7 +29,7 @@ print(frequencies)
 
 hist = pygal.Bar()
 
-hist.title = 'Results of rolling a D'+str(die.num_sides)+' and a D'+str(die2.num_sides)+' 1000 times'
+hist.title = 'Results of rolling a D'+str(die.num_sides)+' and a D'+str(die2.num_sides)+ " "+ str(rolls)+' times'
 x_stuff = []
 for value in range(2,max_result+1):
     x_stuff.append(str(value))
